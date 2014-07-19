@@ -4,6 +4,5 @@ class HomeController < ApplicationController
   end
 
   def smacss
-    render :layout => nil
   end
 end
