@@ -1,0 +1,109 @@
+$black: #000;
+$white: #fff;
+$orange: #d68969;
+
+$teal: #3fbdaa;
+$dark_teal: #0ca29d;
+$pink: #d93b6f;
+$red: #d40404;
+$bright_red: #db0909;
+$bright_teal: #2ad7bd;
+$pink-light: #F3EDEE;
+$sage-green: #ced6bd;
+
+$button-pink: #d93b6f;
+$button-faded-pink: #e8cfd7;
+$button-gray: #231f20;
+$button-border-gray: #dcd6d6;
+$button-border-pink: #95264B;
+$button-gradient-pink: #c83566;
+
+$text-gray-xmedium: #9b9997;
+$text-gray-medium: shade($text-gray-xmedium, 10%);
+$text-gray: shade($text-gray-xmedium, 70%);
+$text-gray-light: #a1a1a1;
+$text-gray-xlight: #c9c5c4;
+$text-gray-dark: #231f20;
+$text-gray-xdark: #111111;
+$text-brown-dark: #585451;
+$text-brown-xdark: #393430;
+$text-placeholder: #757575;
+
+$dotted-border-gray: #e5e1e1;
+$solid-border-gray: #d3d3d3;
+$solid-border-gray-light: #eae4e4;
+
+$link-color: #5bc8b7;
+$link-color-visited: #5bc8b7;
+$link-color-hover: #5bc8b7;
+$link-color-active: #5bc8b7;
+$separator-line-color: #e6dddc;
+$footer-link-color: #807f7f;
+$footer-link-hover-color: #64bbac;
+$link-color-light: #9be5d2;
+
+$background-light: #efecea;
+$background-xlight: #ecebea;
+$background-xxlight: #f4f2f2;
+$background-dark: #d3cdcd;
+$background-medium-beige: #f0eceb;
+$background-medium-dark: #e9e2e1;
+$background-grey-dark: #515151;
+
+$background-brown-light: #e5ded8;
+$background-brown-xlight: #eee7e1;
+//CART
+//would like to define these color names better so it is more clear where they are used
+//and how changes to these colors will affect elements in the site
+//would also like to reduce the number of variations in gray colors used
+$gray-dark: #353535;
+$gray-xdark: #222;
+$gray-medium: #5A5A5A;
+$gray: #666;
+$gray-lighter: #AAA;
+$gray-light3: #ece7e7;
+$gray-light2: #c5c5c5;
+$gray-light: #d3d3d3;
+$gray-xlight: #e5e1e1;
+$gray-xxlight: #F7F6F6;
+$gray-xxxlight: #FBFBFB;
+$gray-xxxxlight: #F4F2F1;
+$gray-tan-light: #efebea;
+
+$gray-line: #b8b6b7;
+
+// $primary-color-dark:#022B4A;
+// $primary-color-light: #30719A;
+// $primary-color-xlight: #AFC5CF;
+// $primary-color-xxlight: #E6EEF2;
+
+//FORMS
+$primary-color: #00375B;
+$secondary-color: #FD7000;
+$highlight: #ffe;
+
+$danger: #c00;
+$danger-light: #fcc;
+
+$input-border-gray: #d8d5d5;
+$gray-border: #c3b9b9;
+$gray-border-dark: #d8d5d2;
+$gray-border-light: #e9dddd;
+$gray-border-xlight: #efefef;
+$gradient: #383434;
+$gradient-color: #E6E6E6;
+$gradient-white-middle: #f6f5f5;
+$gradient-white-end: #e5e1e1;
+$gradient-light: #EDEDED;
+$gradient-pink: #D9678E;
+$gray-shadow: #dddcdb;
+
+
+$dotted-border-brown: #d2c3b5;
+
+$pane-bg: #fbfafa;
+$pane-title-bg: #f2efef;
+$pane-body-border: #f3f2f2;
+$border-pinkish: #b1a7a7;
+
+$whitish: #f3f3f3;

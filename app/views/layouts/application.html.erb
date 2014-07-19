@@ -3,12 +3,23 @@
 <head>
   <title>CssFoo</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <header>
 
-<%= yield %>
+    </header>
 
+    <div class="page">
+      <div class="left-nav"></div>
+      <div class="right-nav"><%= yield %></div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag :modernizr %>
 </body>
 </html>

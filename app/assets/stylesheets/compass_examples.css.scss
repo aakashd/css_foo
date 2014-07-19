@@ -1,0 +1,25 @@
+$default-text-shadow-color: rgba(red, 0.6);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
+
+.compass-example{
+  @include clearfix;
+  display: none;
+}
+
+@import 'compass_example_box_shadow';
+@import 'compass_example_text_shadow';
+@import 'compass_example_rouded_corners';
+@import 'compass_example_box_sizing';
+
+.color-examples{
+  .dark{
+    color: $text-gray-xmedium;
+  }
+  .light{
+    color: $text-gray-medium;
+  }
+  .lighter{
+    color: $text-gray;
+  }
+}

@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,700);
+
+// Font Weights
+$semibold: 600;
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+
+  &.raleway-heading {
+    font-size: 38px;
+    line-height: 44px;
+  }
+}
+
+//The main reason for adding additional classes here instead of sprinkling the font everywhere is that
+//it would be easy to get rid of it when we permanently switch fonts.
+
+.open-sans, .open-sans p,
+.search-results, .search-result-favorite-button button, .mobile-search-results-white-header,
+.mobile-referral-page, .a2s-registration-modal, .a2s-registration-modal .pink-button,
+.sidebar-container, .sidebar-container .ui-widget, .ui-selectmenu-menu-dropdown,
+.banner, #banner-profile-dropdown, .no-image-message,
+.contest-modal, .contest-modal p,
+.pl-reco-popup, .pl-reco-popup p,
+.snap-and-search {
+  font-family: 'Open Sans', sans-serif !important;
+  line-height: 1.5;
+  .capitalize {
+    letter-spacing: $letter-spacing-minimal;
+  }
+  .css-button {
+    font-family: 'Open Sans', sans-serif !important;
+  }
+}

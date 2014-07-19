@@ -1,0 +1,100 @@
+.disabled-element {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.3;
+}
+
+.label-on-input {
+  display: inline-block;
+  position: relative;
+
+  input, select, select + .select2-container, select + .select2-container .select2-choice {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    @include box-sizing(border-box);
+    background: transparent;
+    border-radius: 0;
+  }
+
+  input, select {
+    border: 1px solid $solid-border-gray;
+    padding: 0px 0px 0px 100px;
+    @include appearance(none); // For mobile
+    &:focus { background: transparent; }
+    &.error { border-color: $danger; }
+    &:disabled { opacity: 0.4; }
+  }
+
+  .ui-btn-shadow { border: none; } // For mobile
+
+  select {
+    & + .select2-container .select2-choice {
+      line-height: inherit;
+      padding-left: 0px;
+      border: 1px solid $solid-border-gray;
+      div { background: transparent; }
+      span {
+        line-height: inherit;
+        text-align: left;
+        padding: 0px 0px 0px 100px;
+      }
+    }
+
+    &.error + .select2-container .select2-choice { border-color: $danger; }
+  }
+
+  label {
+    position: absolute;
+    left: 10px;
+  }
+
+  &.list-of-inputs {
+    margin-top: -1px;
+    .error { z-index: 1; }
+  }
+
+  &.disabled {
+    label, input, select { opacity: 0.4; }
+  }
+}
+
+.label-on-input.mobile-select select {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 36px;
+}
+
+.flash-error {
+  font-size: 16px;
+  background-color: $danger-light;
+  line-height: 40px;
+  text-align: center;
+  color: $danger;
+  border-radius: 20px;
+  margin: 6px 0px;
+  padding: 0 20px;
+  font-weight: bolder;
+
+  body.mobile & {
+    font-size: 14px;
+    margin: 6px 12px;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.is-hidden{
+  display: none;
+}
+
+.is-visible{
+  display: block !important;
+}

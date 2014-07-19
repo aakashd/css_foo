@@ -1,0 +1,43 @@
+form{
+  h2{
+    color: $primary-color;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 4px;
+    border-bottom: solid 1px $gray-xlight;
+  }
+
+  label{
+    font-weight: 600;
+  }
+
+  div#errorExplanation, div#error_explanation{
+    padding: 6px;
+    color: $danger;
+    background: $highlight;
+    font-weight: 600;
+
+    h2{display: none;}
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="search"],
+  input[type="email"],
+  textarea{
+    border: solid 1px $input-border-gray;
+  }
+
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  input[type="email"]:focus, {
+  	outline: #99e5d9 solid 2px;
+  	background: #f9f9f9;
+  }
+
+  textarea{
+    height: 160px;
+    width: 98%;
+  }
+}
